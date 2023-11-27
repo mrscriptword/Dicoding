@@ -1,5 +1,4 @@
 import pandas as pd
-import streamlit as st
 import datetime
 st.header('Pengembangan Dasboard menggunakan Python:👋:')
 st.subheader("Selamat Datang di dashboard Rendy Ilyasa")
