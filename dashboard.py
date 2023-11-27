@@ -173,9 +173,9 @@ if __name__ == "__main__":
 
     st.header("Rental Sepeda :bike:")
 
-    day_df_csv = Path(__file__).parents[1] / 'Modul Pembelajaran Data Science Dicoding/data_day_bersih.csv'
+    url_data = "https://raw.githubusercontent.com/mrscriptword/Dicoding/main/data_day_bersih.csv"
 
-    day_df = pd.read_csv(day_df_csv)
+    day_df = pd.read_csv(url_data)
 
     date = sidebar(day_df)
     if len(date) == 2:
