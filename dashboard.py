@@ -1,8 +1,6 @@
 import pandas as pd
-import seaborn as sns
 import streamlit as st
 import datetime
-from pathlib import Path
 st.header('Pengembangan Dasboard menggunakan Python:👋:')
 st.subheader("Selamat Datang di dashboard Rendy Ilyasa")
 
